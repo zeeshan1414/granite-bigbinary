@@ -1,4 +1,4 @@
 export const initializeLogger = () => {
-    /* eslint no-undef: "off"*/
-    require("js-logger").useDefaults();
+  /* eslint no-undef: "off"*/
+  require("js-logger").useDefaults();
 };

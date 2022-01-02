@@ -54,9 +54,13 @@ group :test do
   # Easy installation and use of web drivers to run system tests with browsers
 end
 
-# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+# For periodic sidekiq jobs
+gem "sidekiq-cron"
+# For opening mails in development env
+gem "letter_opener", group: :development
 gem "pundit"
 gem "react-rails"
 gem "sidekiq"
 gem "simplecov", require: false, group: :test
+# Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]

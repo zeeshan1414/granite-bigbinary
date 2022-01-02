@@ -9,4 +9,5 @@ module Constants
   MIN_PASSWORD_LENGTH = 6
   VALID_EMAIL_REGEX = /\A([\w+\-].?)+@[a-z\d\-]+(\.[a-z]+)*\.[a-z]+\z/i.freeze
   MAX_COMMENT_CONTENT_LENGTH = 511
+  DEFAULT_NOTIFICATION_DELIVERY_HOUR = 10
 end
